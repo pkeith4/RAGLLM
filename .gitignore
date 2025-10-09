@@ -1,0 +1,17 @@
+# sbt build stuff
+target/
+project/target/
+project/project/
+project/streams/
+project/.bloop
+project/metals.sbt
+project/build.properties
+output
+src/main/resources/pdfs
+
+# Metals (Scala language server) and Bloop (build server)
+.metals/
+.bloop/
+.bsp/
+logs/
+lucene-*
